@@ -1,0 +1,53 @@
+.TodoList {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.TodoList__item {
+  display: flex;
+  align-items: center;
+  padding: 6px 4px 6px 12px;
+  margin: 1px;
+  background-color: #fff;
+  border: 1px solid #bcc4d3;
+  box-shadow: 0 0 14px 0px #bcc4d3;
+  border-radius: 5px;
+}
+
+.TodoList__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+.TodoList__item--completed .TodoList__text {
+  /* text-decoration: line-through; */
+  color: #bcc4d3;
+}
+
+.TodoList__checkbox {
+  margin-right: 20px;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+.TodoList__btn {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  background-color: #5a5474;
+  color: #fff;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: 8px;
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+  transition: box-shadow 250ms linear;
+}
+.Todolist__btn:active {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}

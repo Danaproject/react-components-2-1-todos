@@ -1,0 +1,35 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.button {
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  background-color: darkgrey;
+  color: #a50b5e;
+  margin-right: 12px;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+  transition: box-shadow 250ms linear;
+}
+.statistics {
+  display: block;
+  text-align: center;
+}
+.value {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+h1 {
+  display: block;
+  margin: 40px auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #0a1787;
+}

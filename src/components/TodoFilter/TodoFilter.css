@@ -1,0 +1,20 @@
+.Filter__label {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px auto;
+  margin-bottom: 30px;
+  color: #5a5474;
+  font-weight: bold;
+}
+.Filter {
+  display: block;
+  padding: 6px 4px 6px 12px;
+  margin-left: 10px;
+  width: 480px;
+  height: 38px;
+  background-color: #fff;
+  border: 1px solid #bcc4d3;
+  border-radius: 5px;
+}
